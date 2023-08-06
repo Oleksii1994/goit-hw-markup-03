@@ -83,11 +83,13 @@ img {
 
 /* Header styles */
 
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .container-header {
   display: flex;
   justify-content: space-between;
-
-  border-bottom: 1px solid var(--accent-color-light);
 }
 
 .logo {
